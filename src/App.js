@@ -7,13 +7,6 @@ import SearchIcon from './search.svg';
 
 const API_URL = 'https://www.omdbapi.com?apikey=b6e626a0';
 
-const movie1 = {
-"Title": "Amazing Spiderman Syndrome",
-"Year": "2021",
-"imdbID": "tt2586634",
-"Type": "movie",
-"Poster": "N/A"
-}
  
 const App = () => {
 const [movies, setMovies] = useState([]);
